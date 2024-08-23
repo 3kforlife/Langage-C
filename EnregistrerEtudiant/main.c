@@ -13,9 +13,11 @@ int main()
     printf("PRENOM : ");
     gets(&e.prenom);
     printf("AGE : ");
-    scanf("%d",e.age);
-    printf("NOM : %s",e.nom);
-    printf("PRENOM : %s",e.prenom);
+    scanf("%d",&e.age);
+    printf("NOM : ");
+    puts(e.nom);
+    printf("PRENOM : ");
+    puts(e.prenom);
     printf("AGE : %d",e.age);
     return 0;
 }
